@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#f4f4f4 ;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container{
+    background-color: #fff;
+    padding: 80px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2{
+    text-align: center;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px; /* Adicionando preenchimento de 10 pixels em todos os lados */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+.input-group {
+    margin-bottom: 20px; /* Adicionando espaço abaixo dos grupos de entrada */
+}
+
+
+button {
+    width: 100%;
+    padding: 6px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 80px; /* Adicionando espaço acima do botão para separá-lo dos inputs */
+    margin-bottom: 20px; /* Adicionando espaço abaixo do botão */
+}
+
+
+button:hover {
+    background-color: #0056b3;
+}
+nav {
+    position: absolute;
+    top: 10px;
+    right: 50px; /* Ajuste este valor para mover mais para a esquerda ou para a direita */
+    z-index: 1; /* Opcional: se estiver lidando com sobreposições, ajuste o z-index conforme necessário */
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 10px; /* Adiciona espaço entre os itens do menu */
+}
+
+nav li:first-child {
+    margin-left: 0; /* Remove a margem esquerda do primeiro item do menu */
+}
